@@ -34,7 +34,7 @@ def clean_Review(html_text):
     soup.decompose()  # Destroy the soup object
     return result #Retrun the cleaned text
 
-IDMBDataframe = pd.read_csv('.\IMDB_Dataset.csv', 
+IDMBDataframe = pd.read_csv('.\IMDB Dataset.csv', 
                             names = ['Reviews', 'Classification'], 
                             skiprows=1)
 # Import IDMB Dataset from CSV file into a pandas dataframe for manipulation and labeling
